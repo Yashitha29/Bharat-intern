@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Your Portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="logo">Kasumurthi Yashitha</div>
+        <nav>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#achievements">Achievements</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="intro">
+            <h1>Hi, I'm <span>Kasumurthi Yashitha</span></h1>
+            <p class="role">Frontend Developer</p>
+            <p class="description">Passionate about creating web experiences that make a difference.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>React.js</li>
+            <li>Responsive Design</li>
+            <!-- Add more skills as needed -->
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>Description of Project 1. Details, technologies used, and outcomes.</p>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <section id="achievements">
+        <h2>Achievements</h2>
+        <p>Received Web Developer Certification - XYZ Institute</p>
+        <!-- Add more achievements as needed -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: yashi29@gmail.com</p>
+        <!-- Add more contact details as needed -->
+    </section>
+
+</body>
+</html>
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #7d2ae8;
+}
+
+/* Add more styling as needed */
+
+#hero {
+    background: url('background.jpg') center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.intro {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.intro h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.intro span {
+    color: #7d2ae8;
+}
+
+.role {
+    font-size: 1.5em;
+    color: #7d2ae8;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 1.2em;
+}
+
+/* Add more styling for other sections */
+
+#projects {
+    background-color: #f5f5f5;
+    padding: 40px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+#contact {
+    background-color: #333;
+    color: white;
+    padding: 40px;
+}
+
+#contact p {
+    margin-bottom: 10px;
+}
